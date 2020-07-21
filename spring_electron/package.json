@@ -1,0 +1,28 @@
+{
+  "name": "PNID",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . PNID --icon=assets/build/icon.png"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-packager": "^15.0.0",
+    "electron-is-dev": "^1.2.0",
+    "electron-log": "^4.2.2"
+  },
+  "dependencies": {
+    "electron-is-dev": "^1.2.0",
+    "electron-log": "^4.2.2",
+    "minimal-request-promise": "^1.5.0"
+  }
+}
