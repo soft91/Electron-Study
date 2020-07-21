@@ -8,7 +8,7 @@
 
 ```
 $ electron_builder
-pind_electron/
+spring_electron/
 ├── assets/            # Electron에서 사용 할 Assets 파일들의 모임.(예: Logo 등...) 
 ├── jars/              # Electron에서 필요한 jar 파일을 넣으시면 됩니다.
 ├── main.js            # Electron에서 실질적으로 Build를 할 때 필요한 스크립트 
